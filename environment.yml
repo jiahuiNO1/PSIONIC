@@ -1,0 +1,12 @@
+# Create with:  conda env create -f environment.yml   (run from the repository root)
+name: psionic
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - pip
+  - htslib      # provides bgzip; optional, speeds up per-cell BED file generation
+  - pip:
+      - -r requirements.txt
+      - -e .

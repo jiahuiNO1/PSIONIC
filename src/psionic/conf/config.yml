@@ -1,0 +1,14 @@
+defalut_params:
+  project: '' # comment
+  # cell_number_per_group: 50
+  # peak_confidence: 5
+  # reference: True
+  thread: 16
+  yes_confirm: false
+  clean: false
+
+index:
+  human_tf_index: /ihome/hosmanbeyoglu/jih325/AD/SCRIP_adapt_test/PSIONIC_python_package/PSIONIC_tutorial/conf/TR_human/raw_beds
+  #Do NOT need to modify the path manually, the code will grab the correct path and update it automatically
+
+

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter / OS
+.ipynb_checkpoints/
+.DS_Store
+
+# PSIONIC outputs
+*.log
+*.out
+PSIONIC_out/
+SCRIP/
+SCRIP_out/
+
+# Large reference data: host externally (e.g., Zenodo) rather than in git
+src/psionic/conf/TR_human/
+src/psionic/conf/TR_mouse/
+src/psionic/conf/*.tar.gz

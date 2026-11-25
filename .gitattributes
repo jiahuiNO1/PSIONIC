@@ -1,0 +1,9 @@
+# Normalise line endings to LF in the repository
+* text=auto eol=lf
+
+# Binary files
+*.h5ad binary
+*.h5 binary
+*.gz binary
+*.png binary
+*.pdf binary

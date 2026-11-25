@@ -1,0 +1,17 @@
+# Exact versions used to develop PSIONIC and reproduce published results.
+# For a regular install, use `pip install .` instead (see pyproject.toml).
+anndata==0.12.2
+joblib==1.3.2
+matplotlib==3.10.6
+numpy==1.26.4
+pandas==2.3.2
+psutil==5.9.8
+pyranges==0.0.111
+ruamel.yaml==0.17.21
+scanpy==1.11.4
+scipy==1.12.0
+seaborn==0.13.2
+tqdm==4.66.2
+# TODO: pin to the versions in your environment (pip freeze | grep -i -E "statsmodels|session")
+statsmodels
+session-info

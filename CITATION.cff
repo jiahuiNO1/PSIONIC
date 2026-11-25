@@ -1,0 +1,106 @@
+cff-version: 1.2.0
+message: "If you use PSIONIC, please cite it as below."
+title: "PSIONIC"
+abstract: "Chromatin-informed multitask learning of cell-type-specific transcription factor regulatory programs from single-cell multiome data."
+type: software
+authors:
+  - family-names: Hou
+    given-names: Jiahui
+    email: jih325@pitt.edu
+    affiliation: "University of Pittsburgh"
+  - family-names: Hadikhani
+    given-names: Parham
+    affiliation: "University of Pittsburgh"
+  - family-names: Osmanbeyoglu
+    given-names: Hatice U.
+    email: osmanbeyogluhu@pitt.edu
+    affiliation: "University of Pittsburgh"
+version: 0.1.0
+repository-code: "https://github.com/jiahuiNO1/PSIONIC"
+keywords:
+  - single-cell
+  - scATAC-seq
+  - scRNA-seq
+  - transcription factor activity
+  - multitask learning
+# TODO: uncomment and fill in when you make the first release
+# date-released: "2026-12-01"
+license: MIT
+# doi: 10.5281/zenodo.XXXXXXX
+references:
+  - type: article
+    title: "Chromatin-informed inference of transcriptional programs in gynecologic and basal breast cancers"
+    authors:
+      - family-names: Osmanbeyoglu
+        given-names: Hatice U.
+      - family-names: Shimizu
+        given-names: Fumiko
+      - family-names: Rynne-Vidal
+        given-names: Angela
+      - family-names: Alonso-Curbelo
+        given-names: Direna
+      - family-names: Chen
+        given-names: Hsuan-An
+      - family-names: Wen
+        given-names: Hannah Y.
+      - family-names: Yeung
+        given-names: Tsz-Lun
+      - family-names: Jelinic
+        given-names: Petar
+      - family-names: Razavi
+        given-names: Pedram
+      - family-names: Lowe
+        given-names: Scott W.
+      - family-names: Mok
+        given-names: Samuel C.
+      - family-names: Chiosis
+        given-names: Gabriela
+      - family-names: Levine
+        given-names: Douglas A.
+      - family-names: Leslie
+        given-names: Christina S.
+    journal: "Nature Communications"
+    volume: 10
+    start: 4369
+    year: 2019
+    doi: 10.1038/s41467-019-12291-6
+  - type: article
+    title: "Single-cell gene regulation network inference by large-scale data integration"
+    authors:
+      - family-names: Dong
+        given-names: Xin
+      - family-names: Tang
+        given-names: Ke
+      - family-names: Xu
+        given-names: Yunfan
+      - family-names: Wei
+        given-names: Hailin
+      - family-names: Han
+        given-names: Tong
+      - family-names: Wang
+        given-names: Chenfei
+    journal: "Nucleic Acids Research"
+    volume: 50
+    issue: 21
+    start: e126
+    year: 2022
+  - type: data
+    title: "Reference datasets of SCRIP for scATAC-seq"
+    authors:
+      - family-names: Dong
+        given-names: Xin
+      - family-names: Tang
+        given-names: Ke
+      - family-names: Xu
+        given-names: Yunfan
+      - family-names: Wei
+        given-names: Hailin
+      - family-names: Han
+        given-names: Tong
+      - family-names: Wang
+        given-names: Chenfei
+    publisher:
+      name: Zenodo
+    year: 2022
+    doi: 10.5281/zenodo.5840810
+    license: CC-BY-4.0
